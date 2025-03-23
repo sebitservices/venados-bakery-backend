@@ -22,7 +22,7 @@ app.use('/api/auth', authRoutes);
 
 // Ruta de prueba para verificar que el servidor está funcionando
 app.get('/', (req, res) => {
-  res.send('API de Venados Bakery & Coffee funcionando correctamente');
+  res.json({ message: 'API de Venados Bakery & Coffee funcionando correctamente' });
 });
 
 // Puerto
