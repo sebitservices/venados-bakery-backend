@@ -1,0 +1,23 @@
+{
+  "name": "venados-bakery-backend",
+  "version": "1.0.0",
+  "description": "Backend para el sistema de ventas de Venados Bakery & Coffee",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "firebase": "^11.5.0",
+    "firebase-admin": "^13.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
